@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+h1{
+    padding:0;
+    margin:0;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .gridRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.gridSquare{
+    background-color: gray;
+    max-width: 15px;
+    max-height: 15px;
+    min-width: 15px;
+    min-height: 15px;
+    flex: 0 0 auto;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+#footer{
+    margin-top: auto;
+    text-align: center;
+}
